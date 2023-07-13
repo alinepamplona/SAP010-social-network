@@ -16,6 +16,7 @@
   border-radius: 30px;
   padding: 20px 20px 20px 20px;
   margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .inputsRegister {
@@ -63,6 +64,7 @@
   margin-top: 8px;
   margin-left: 5px;
   margin-right: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .button-back {
@@ -76,13 +78,14 @@
   margin-top: 8px;
   margin-right: 5px;
   margin-left: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 900px) {
   .register-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .form-register {
@@ -96,9 +99,10 @@
   .section-logo-register {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
     width: 200px;
     padding-bottom: 50px;
+    margin-right: 100px;
   }
 
   .button-group{

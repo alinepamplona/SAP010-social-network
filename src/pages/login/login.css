@@ -24,6 +24,7 @@
   border-radius: 30px;
   padding: 20px 20px 20px 20px;
   margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .input-login {
@@ -86,6 +87,7 @@
   margin-top: 8px;
   background-color: #193549;
   width: 125px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .button-login-google {
@@ -97,6 +99,7 @@
   background-color: #c95a3e;
   border: #fff;
   width: 125px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .texto-login {

@@ -64,6 +64,7 @@
   background-color: #193549;
   border: none;
   width: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .input-text {
@@ -109,6 +110,7 @@
   border-radius: 5px;
   width: 90%;
   color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .post p {
