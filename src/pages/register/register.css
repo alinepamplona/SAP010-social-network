@@ -19,7 +19,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.inputsRegister {
+.inputs-register {
   border-radius: 20px;
   height: 30px;
   border: none;
@@ -30,11 +30,11 @@
   color: #fff;
 }
 
-.inputsRegister::placeholder{
+.inputs-register::placeholder{
   color: #ffffff55;
 }
 
-.inputsRegister:focus{
+.inputs-register:focus{
   outline: none
 }
 
@@ -54,7 +54,7 @@
   width: 90%;
 }
 
-.buttonRegister {
+.button-register {
   color: #c95a3e;
   border-radius: 20px;
   border: none;
@@ -109,7 +109,7 @@
     width: 100%;
   }
 
-  .buttonRegister {
+  .button-register {
     margin-right: 10px;
   }
   

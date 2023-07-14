@@ -16,19 +16,19 @@ export default () => {
     
     <form class='form-register'>
         <span class='text-title'>CADASTRE-SE</span>
-        <input class='inputsRegister' type='text' placeholder='nome' id='nameRegister'>
+        <input class='inputs-register' type='text' placeholder='nome' id='name-register'>
         <span class='text-error' id='text-name-error'></span>
-        <input class='inputsRegister' type='text' placeholder='sobrenome' id='lastnameRegister'>
+        <input class='inputs-register' type='text' placeholder='sobrenome' id='lastname-register'>
         <span class='text-error' id='text-last-name-error'></span>
-        <input class='inputsRegister' type='text' placeholder='usuário' id='userRegister'>
+        <input class='inputs-register' type='text' placeholder='usuário' id='user-register'>
         <span class='text-error' id='text-user-error'></span>
-        <input class='inputsRegister' type='email' placeholder='e-mail' id='emailRegister'>
+        <input class='inputs-register' type='email' placeholder='e-mail' id='email-register'>
         <span class='text-error' id='text-email-error'></span>
-        <input class='inputsRegister' type='password' placeholder='senha' id='passwordRegister'>
+        <input class='inputs-register' type='password' placeholder='senha' id='password-register'>
         <span class='text-error' id='text-password-error'></span>
         <section class='button-group'>
         <button class='button-back' type='button'>Voltar</button>
-          <button class='buttonRegister' id='firebaseRegister' type='submit' >Cadastrar</button>
+          <button class='button-register' type='submit' >Cadastrar</button>
         </section>
         </form>
     `;
@@ -43,15 +43,15 @@ export default () => {
   register.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const nameElement = registerContainer.querySelector('#nameRegister');
+    const nameElement = registerContainer.querySelector('#name-register');
     const textNameError = registerContainer.querySelector('#text-name-error');
-    const lastNameElement = registerContainer.querySelector('#lastnameRegister');
+    const lastNameElement = registerContainer.querySelector('#lastname-register');
     const textLastNameError = registerContainer.querySelector('#text-last-name-error');
-    const userElement = registerContainer.querySelector('#userRegister');
+    const userElement = registerContainer.querySelector('#user-register');
     const textUserError = registerContainer.querySelector('#text-user-error');
-    const emailElement = registerContainer.querySelector('#emailRegister');
+    const emailElement = registerContainer.querySelector('#email-register');
     const textEmailError = registerContainer.querySelector('#text-email-error');
-    const passwordElement = registerContainer.querySelector('#passwordRegister');
+    const passwordElement = registerContainer.querySelector('#password-register');
     const textPasswordError = registerContainer.querySelector('#text-password-error');
 
     nameElement.classList.remove('input-error');
